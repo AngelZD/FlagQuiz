@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HolaMundoGit</string>
+    <string name="Mensaje_Text">Este es mi Hola Mundo en GIT!!!</string>
+</resources>

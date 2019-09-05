@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="buttonDigCero_Text" translatable="false">0</string>
+    <string name="buttonDigUno_Text" translatable="false">1</string>
+    <string name="buttonDigDos_Text" translatable="false">2</string>
+    <string name="buttonDigTres_Text" translatable="false">3</string>
+    <string name="buttonDigCuatro_Text" translatable="false">4</string>
+    <string name="buttonDigCinco_Text" translatable="false">5</string>
+    <string name="buttonDigSeis_Text" translatable="false">6</string>
+    <string name="buttonDigSiete_Text" translatable="false">7</string>
+    <string name="buttonDigOcho_Text" translatable="false">8</string>
+    <string name="buttonDigNueve_Text" translatable="false">9</string>
+    <string name="buttonDigPunto_Text" translatable="false">.</string>
+    <string name="buttonDigParIzq_Text" translatable="false">(</string>
+    <string name="buttonDigParDer_Text" translatable="false">)</string>
+    <string name="buttonDigPi_Text" translatable="false">Pi</string>
+
+    <string name="buttonOpIgual_Text" translatable="false">=</string>
+    <string name="buttonOpSuma_Text" translatable="false">+</string>
+    <string name="buttonOpResta_Text" translatable="false">-</string>
+    <string name="buttonOpMul_Text" translatable="false">*</string>
+    <string name="buttonOpDiv_Text" translatable="false">/</string>
+    <string name="buttonOpPot_Text" translatable="false">^</string>
+    <string name="buttonOpSigno_Text" translatable="false">+/-</string>
+    <string name="buttonOpBorrar_Text" translatable="false">C</string>
+    <string name="buttonOpRaiz_Text" translatable="false">Sqrt</string>
+    <string name="buttonOpMod_Text" translatable="false">%</string>
+    <string name="buttonOpSen_Text" translatable="false">Sen</string>
+    <string name="buttonOpCos_Text" translatable="false">Cos</string>
+    <string name="buttonOpTan_Text" translatable="false">Tan</string>
+    <string name="buttonOpCtg_Text" translatable="false">Ctg</string>
+    <string name="buttonOpSec_Text" translatable="false">Sec</string>
+    <string name="buttonOpCsc_Text" translatable="false">Csc</string>
+
+    <string name="buttonOpLog_Text" translatable="false">Log</string>
+    <string name="buttonOpLn_Text" translatable="false">ln</string>
+    <string name="buttonOpExp_Text" translatable="false">e</string>
+    <string name="buttonOpFact_Text" translatable="false">!</string>
+
+</resources>
