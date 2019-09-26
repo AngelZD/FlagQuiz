@@ -13,7 +13,7 @@
     <string name="buttonDigPunto_Text" translatable="false">.</string>
     <string name="buttonDigParIzq_Text" translatable="false">(</string>
     <string name="buttonDigParDer_Text" translatable="false">)</string>
-    <string name="buttonDigPi_Text" translatable="false">Pi</string>
+    <string name="buttonDigPi_Text" translatable="false">pi</string>
 
     <string name="buttonOpIgual_Text" translatable="false">=</string>
     <string name="buttonOpSuma_Text" translatable="false">+</string>
@@ -38,7 +38,5 @@
     <string name="buttonOpFact_Text" translatable="false">!</string>
     <string name="textViewInitialText_Text" translatable="false">0.0</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

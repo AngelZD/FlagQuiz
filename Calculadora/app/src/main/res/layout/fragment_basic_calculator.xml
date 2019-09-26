@@ -5,10 +5,354 @@
     android:layout_height="match_parent"
     tools:context=".BasicCalculator">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
 
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/FbuttonBorrar"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOP2"
+                android:fontFamily="sans-serif-black"
+                android:onClick="clear"
+                android:text="@string/buttonOpBorrar_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonSigno"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOP2"
+                android:fontFamily="sans-serif-black"
+                android:onClick="cambioSigno"
+                android:text="@string/buttonOpSigno_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonPot"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOP2"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonOpPot_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonDiv"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOP2"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonOpDiv_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/FbuttonSiete"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigSiete_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonOcho"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigOcho_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonNueve"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigNueve_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonMul"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOP1"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/buttonOpMul_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp"
+                android:onClick="onClick" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/FbuttonCuatro"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigCuatro_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonCinco"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigCinco_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonSeis"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigSeis_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonResta"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOP1"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonOpResta_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/FbuttonUno"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigUno_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonDos"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigDos_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonTres"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigTres_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonSuma"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOP1"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonOpSuma_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/FbuttonCero"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigCero_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonPunto"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonDig"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigPunto_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+
+            <Button
+                android:id="@+id/FbuttonIgual"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOP1"
+                android:fontFamily="sans-serif-black"
+                android:onClick="resolver"
+                android:text="@string/buttonOpIgual_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="36sp"
+                tools:layout_editor_absoluteX="164dp"
+                tools:layout_editor_absoluteY="241dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
 </FrameLayout>

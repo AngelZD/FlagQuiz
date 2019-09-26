@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicCalcLand">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonLog"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="funcionesGrandes"
+                android:text="@string/buttonOpLog_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonParIzq"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigParIzq_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonParDer"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonDigParDer_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonLn"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="funcionesGrandes"
+                android:text="@string/buttonOpLn_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonSqrt"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="funcionesGrandes"
+                android:text="@string/buttonOpRaiz_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonMod"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonOpMod_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonExp"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonOpExp_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonSen"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="funcionesGrandes"
+                android:text="@string/buttonOpSen_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonCos"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="funcionesGrandes"
+                android:text="@string/buttonOpCos_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonPi"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/buttonDigPi_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/buttonSec"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="funcionesGrandes"
+                android:text="@string/buttonOpSec_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonCsc"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="funcionesGrandes"
+                android:text="@string/buttonOpCsc_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonFact"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="onClick"
+                android:text="@string/buttonOpFact_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonTan"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="funcionesGrandes"
+                android:text="@string/buttonOpTan_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/buttonCtg"
+                style="?android:actionButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/colorButtonOPHid"
+                android:fontFamily="sans-serif-black"
+                android:onClick="funcionesGrandes"
+                android:text="@string/buttonOpCtg_Text"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
